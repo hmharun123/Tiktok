@@ -1,8 +1,25 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff;
-}
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>মানিকগঞ্জের বড় মিয়া</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      transition: background 0.3s, color 0.3s;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #222;
+    }
+    section {
+      padding: 40px 20px;
+    }
 
 .btn-social {
   display: inline-block;
@@ -25,3 +42,34 @@ body {
 .btn-social.instagram { background: #C13584; }
 .btn-social.tiktok { background: #010101; }
 .btn-social.fiverr { background: #1DBF73; }
+
+.gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+      justify-items: center;
+    }
+    .gallery-grid img {
+      width: 100%;
+      max-width: 180px;
+      border-radius: 10px;
+    }
+    blockquote {
+      background: #f1f1f1;
+      padding: 20px;
+      margin: 10px auto;
+      width: 90%;
+      border-left: 5px solid #ccc;
+    }
+    .dark-mode {
+      background: #111;
+      color: #eee;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
