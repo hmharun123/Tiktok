@@ -72,4 +72,41 @@
       background: #222;
       color: white;
     }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #4a148c;
+    }
+    .btn-group button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn-image { background-color: #e91e63; }
+    .btn-video { background-color: #2196f3; }
+    .btn-audio { background-color: #4caf50; }
+
+    .content-section {
+      display: none;
+      margin-top: 20px;
+    }
+    img, video, audio {
+      max-width: 90%;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
   </style>
